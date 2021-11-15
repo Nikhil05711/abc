@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "stake",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smartContract/contracts/Staking2.sol": "Staking2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smartContract/contracts/Staking2.sol": {
+			"keccak256": "0xef5318bae5c3af2f1158bf876778cc57813264c64e789457e40632ab6158bb1d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aab0d35f32a976b7770c4d92a1a044b149dda159466fd95a84469461ae4a1d8a",
+				"dweb:/ipfs/QmXb4cF6BU1MjkbQ5oHyuVgMLeiXvSoesybRApcFoLrvU3"
+			]
+		}
+	},
+	"version": 1
+}
