@@ -16,6 +16,7 @@ contract NFT is ERC721 {
         address to,
         uint256 amount
     ) public {
+        _mint(to, amount);
         _transfer(from, to, amount);
     }
 }

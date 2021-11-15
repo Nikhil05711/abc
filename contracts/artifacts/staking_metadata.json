@@ -133,6 +133,11 @@
 					},
 					{
 						"internalType": "uint256",
+						"name": "_startingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
 						"name": "_endTime",
 						"type": "uint256"
 					}
@@ -609,19 +614,19 @@
 			]
 		},
 		"smartContract/contracts/NFT.sol": {
-			"keccak256": "0x17b572b0727062d61cb45b3ed86dc29d2d891a0ad5880efbaeb255c41f85a493",
+			"keccak256": "0x50321ec357e313ff429a63cecb1205d6326d461a149f957aebfbd1d632236e7a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7f76acd8f55c61253ff927789ea13418045f78c91b3ce48438b5900f55060af6",
-				"dweb:/ipfs/QmRJebYU26wSEesUfei7pnhVqHHAQCB16j1r2Hk8F69njP"
+				"bzz-raw://cb0b4d5cb99cbcc8743abf8c213f6a7c94c5a568a33712bb17e51ac861bae468",
+				"dweb:/ipfs/QmcFcoTLBn813qKPFfRHiYaXpL8GNJiAFiiUYpaE4iZcaR"
 			]
 		},
 		"smartContract/contracts/staking.sol": {
-			"keccak256": "0xb39921c3be585972dbf0b816959597a68e0c25f375e84e54da3bbeb4a5c61eae",
+			"keccak256": "0x19fe38157ec97d08209bea32d320affd5167a2be402f4571863f03c29b37e3df",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b1d65d7b2f5b815d2659cdf78ce877e013a482c7a8d57e8db8fa127eb6fd2e69",
-				"dweb:/ipfs/QmNfFqnTq525teumwqkZ5DNTqQozrmy1VrnaaLrVoJagrU"
+				"bzz-raw://cf44aaad6d3c8c4613b822af93a562b8907c110cc22cb3a383697a685bb3b269",
+				"dweb:/ipfs/QmUkP8JUrJpEyKHsqio61shCD7JZwk8aBZZLUPey7z52rC"
 			]
 		}
 	},

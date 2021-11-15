@@ -1,6 +1,3 @@
-
-
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -56,6 +53,7 @@ contract staking is Ownable {
         uint256 _stakingLimit,
         uint256 _stakingFixedAmount,
         uint256 _rewardApply,
+        uint256 _startingTime,
         uint256 _endTime
     ) public {
         stakePools.push(
@@ -63,7 +61,7 @@ contract staking is Ownable {
                 stakingLimit: _stakingLimit,
                 stakingFixedAmount: _stakingFixedAmount,
                 rewardApply: _rewardApply,
-                startingTime: block.timestamp,
+                startingTime: _startingTime,
                 endTime: _endTime,
                 stakedTotal: 0
             })
@@ -76,10 +74,10 @@ contract staking is Ownable {
             "Inaproximate amount"
         );
         require(stakes[poolId][msg.sender].amount == 0, "Already staked");
-        // require(
-        //     block.timestamp >= stakePools[poolId].startingTime,
-        //     "Bad timing request"
-        // );
+        require(
+            block.timestamp >= stakePools[poolId].startingTime,
+            "Bad timing request"
+        );
         require(
             block.timestamp < stakePools[poolId].endTime,
             "Bad timing request"
